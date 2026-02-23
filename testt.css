@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.nav2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.airpods {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 400px;
+    width: 31%;
+    transform: scale(1);
+    animation: shrink 1s ease forwards;
+}
+
+@keyframes shrink {
+    to {
+        transform: scale(0.7);
+    }
+}
+
+.right-side {
+    display: flex;
+    position: relative;
+    margin-left: 850px;
+    transform: scale(0.85);
+    animation: grow 1s ease forwards;
+}
+
+@keyframes grow {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+.left-side {
+    display: flex;
+    position: relative;
+    margin-top: -600px;
+    margin-left: 150px;
+    size: 100px;
+    transform: scale(0.85);
+    animation: grow 1s ease forwards;
+}
+
+@keyframes grow {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+.airpods-max-text {
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    animation: shrink 1s ease forwards;
+}
+
+@keyframes shrink {
+    to {
+        transform: scale(0.7);
+    }
+}
+
+.airpods-max {
+    display: flex;
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 400px;
+    transform: scale(0.85);
+    animation: grow 1s ease forwards;
+}
+
+@keyframes grow {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+.price {
+    display: flex;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 660px;
+}
+
+.buy-max {
+    display: flex;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 600px;
+}
+
+.varieties {
+    display: flex;
+    position: absolute;
+    margin-left: 270px;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+
+}
+
+.which-one {
+    display: flex;
+    margin-top: 1000px;
+    margin-left: 250px;
+
+}
+
+.max {
+    display: flex;
+    position: absolute;
+    margin-left: 1000px;
+}
+
+.options {
+    display: grid;
+    position: absolute;
+    margin-top: 500px;
+}
+
+.option11 {
+    display: flex;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1000px;
+}
+
+.option21 {
+    display: flex;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 760px;
+}
+
+.option31 {
+    display: flex;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 520px
+}
+
+.option12 {
+    display: flex;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 1025px
+}
+
+.option22 {
+    display: flex;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 785px
+}
